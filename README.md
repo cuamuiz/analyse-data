@@ -1,2 +1,64 @@
 # Alcohol-Effects-On-Study-Analysis
-This project aims to analyze the relationship between alcohol consumption and academic performance among students. 
+
+**Description:**
+
+This project aims to analyze the relationship between alcohol consumption and academic performance among students. The dataset was downloaded from https://www.kaggle.com/datasets/whenamancodes/alcohol-effects-on-study
+
+**About the Dataset:**
+This data approach student achievement in secondary education of two Portuguese schools in Mathematics. The data attributes include student grades, demographic, social and school related features) and it was collected by using school reports and questionnaires. 
+
+| Columns | Description |
+| --- | --- |
+| school | student's school (binary: 'GP' - Gabriel Pereira or 'MS' - Mousinho da Silveira) |
+| sex | student's sex (binary: 'F' - female or 'M' - male) |
+| age | student's age (numeric: from 15 to 22) |	
+| address | student's home address type (binary: 'U' - urban or 'R' - rural) |	
+| famsize | family size (binary: 'LE3' - less or equal to 3 or 'GT3' - greater than 3) |	
+| Pstatus | parent's cohabitation status (binary: 'T' - living together or 'A' - apart) |	
+| Medu | mother's education (numeric: 0 - none, 1 - primary education (4th grade), 2 - 5th to 9th grade, 3 - secondary education or 4 - higher education) |	
+| Fedu | father's education (numeric: 0 - none, 1 - primary education (4th grade), 2 - 5th to 9th grade, 3 - secondary education or 4 - higher education) |
+| Mjob | mother's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other') |	
+| Fjob | mother's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other') |	
+| reason | reason to choose this school (nominal: close to 'home', school 'reputation', 'course' preference or 'other') |		
+| guardian | student's guardian (nominal: 'mother', 'father' or 'other') |			
+| traveltime | home to school travel time (numeric: 1 - <15 min., 2 - 15 to 30 min., 3 - 30 min. to 1 hour, or 4 - >1 hour) |				
+| studytime | weekly study time (numeric: 1 - <2 hours, 2 - 2 to 5 hours, 3 - 5 to 10 hours, or 4 - >10 hours) |		
+| failures | number of past class failures (numeric: n if 1<=n<3, else 4) |	
+| schoolsup | extra educational support (binary: yes or no) |		
+| famsup | family educational support (binary: yes or no) |		
+| paid | extra paid classes within the course subject (Math) (binary: yes or no) |	
+| activities | extra-curricular activities (binary: yes or no) |	
+| nursery | attended nursery school (binary: yes or no) |	
+| higher | wants to take higher education (binary: yes or no) |		
+| internet | Internet access at home (binary: yes or no) |	
+| romantic | with a romantic relationship (binary: yes or no) |		
+| famrel | quality of family relationships (numeric: from 1 - very bad to 5 - excellent) |		
+| freetime | free time after school (numeric: from 1 - very low to 5 - very high) |	
+| goout | going out with friends (numeric: from 1 - very low to 5 - very high) |		
+| Dalc | workday alcohol consumption (numeric: from 1 - very low to 5 - very high) |	
+| Walc | weekend alcohol consumption (numeric: from 1 - very low to 5 - very high) |		
+| health | current health status (numeric: from 1 - very bad to 5 - very good) |		
+| absences | number of school absences (numeric: from 0 to 93) |		
+
+**These grades are related with the course subject, Math:**
+
+| Grade | Description |
+| --- | --- |
+| G1 | first period grade (numeric: from 0 to 20) |
+| G2 | second period grade (numeric: from 0 to 20) |
+| G3 | final grade (numeric: from 0 to 20) |
+
+**Tasks:**
+
+1. Data Exploration: Explore the dataset structure, examine the variables, and understand their meanings.
+2. Data Cleaning: Handle missing values, remove duplicates, and ensure data consistency.
+3. Descriptive Analysis: Calculate summary statistics for alcohol consumption and academic performance variables.
+4. Correlation Analysis: Investigate the relationship between alcohol consumption and academic outcomes using correlation metrics.
+5. Group Analysis: Compare the academic performance of students who consume alcohol with those who don't.
+6. Recommendations: Based on the analysis, provide recommendations on the potential effects of alcohol consumption on study habits and academic outcomes.
+
+**Deliverables:**
+
+1. SQL Scripts: Include SQL scripts for data cleaning, analysis, and queries.
+2. Documentation: Provide a detailed explanation of the project, dataset, and the insights obtained.
+3. README: Write a comprehensive README file that describes the project, its purpose, and how to replicate the analysis.
