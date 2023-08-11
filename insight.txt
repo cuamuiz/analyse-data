@@ -1,0 +1,8 @@
+-We Have a dataset with 395 students.
+-349 students study in Gabriel Pereira School and 46 in Mousinho da Silveira.
+-208 of the students are femele and 187 are male.
+-the majority of students live in urban area.
+-approximately 71.14% of the students have more or equals then 2 siblings
+ and 28.86% have less or equals then 2 siblings.
+-almost 89,62% of the students their parents live together.
+- 
